@@ -37,12 +37,23 @@ iv) Support Vector Machines (SVM)<br>
 v) K-Nearest Neighbors (KNN)<br>
 For each model, we will evaluate the performance using the accuracy given by them.
 
+## Final Result Table<br>
+
+|                        | Simple Random | Stratified |Systematic  | Cluster  | Convenience |
+| ---------------------- | ------------- | ---------- | ---------- | -------  | ----------- |
+| Logistic Regression    |0.8448         |0.9260      |0.8936      |0.9560    |0.8701       |
+| Decision Tree          |0.9827         |0.9955      |1.0000      |0.9898    |0.9826       |
+| KNN                    |0.9655         |0.9955      |0.9787      |0.9932    |1.0000       |
+| SVC                    |0.6206         |0.6950      |0.7234      |0.7500    |0.7445       |
+| Gaussian NB	           |0.6206         |0.7937      |0.7234      |0.6959    |0.7532       |
+
 ## Results
 In the final step, we analyzed the results and determined which sampling technique gives higher accuracy on which model.
 
 ## Conclusion
 This project provides a comprehensive methodology for balancing an imbalanced data-set using various sampling techniques and comparing the performance of different ML models on the balanced data-set.
 
-Submitted by-Avneet kaur
-Roll no-102003487
-Group-CO20
+## Writtten by<br>
+Submitted by-Avneet kaur<br>
+Roll no-102003487<br>
+Group-CO20<br>
